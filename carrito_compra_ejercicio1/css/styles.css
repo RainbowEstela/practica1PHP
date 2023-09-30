@@ -2,6 +2,38 @@ body {
     margin: 0;
 }
 
+.noMargin {
+    margin: 0;
+}
+
+/* cambia fuente a arial*/
+.fArial {
+    font-family: Arial;
+}
+/*cambia el texto para darle formato de logo*/
+.fLogo {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/*  */
+.bBlanco {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: rgb(56, 91, 186);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+}
+
+.bBlanco:active {
+    background-color: white;
+    color: rgb(56, 91, 186);
+}
+
+/*coloca los elemento intentando alejarlos lo maximo posible*/
 .opposite {
     display: flex;
     justify-content: space-between;
@@ -9,18 +41,20 @@ body {
 
 }
 
+/* cambia el fondo a azul */
 .cblue {
     background-color: rgb(56, 91, 186);
 }
 
+/* pading the 10px arriba y abajo y 20px en los laterales */
 .p10 {
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
 }
 
+/*posiciona los elementos en linea con una separacion de 20px*/
 .flexl{
     display: flex;
-    margin: 20px;
-    background-color: black;
     align-items: center;
     justify-content: space-around;
+    gap: 20px;
 }

@@ -9,10 +9,18 @@
 <body>
     <header class="opposite cblue p10">
         <div class="flexl">
-            <div><img src="./img/tienda2.png" alt="logo" width="50px"></div>
-            <div><p>telestela</p></div>
+            <div>
+                <img src="./img/tienda2.png" alt="logo" width="50px">
+            </div>
+            <div>
+                <p class="fArial fLogo noMargin">Movistela</p>
+            </div>
         </div>
-        <div class="flex_l"><input type="button" value="inicio"></div>
+        <div class="flexl">
+            <a href="#"><input type="button" value="tarea 1" class="fArial bBlanco"></a>
+            <a href="#"><input type="button" value="tarea 2" class="fArial bBlanco"></a>
+            <a href="#"><input type="button" value="tarea 3" class="fArial bBlanco"></a>
+        </div>
     </header>
     
 </body>
