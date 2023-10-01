@@ -4,6 +4,29 @@ body {
 
 .noMargin {
     margin: 0;
+    
+}
+
+.ptod20 {
+    padding-top: 20px;
+}
+
+.textder {
+    text-align: right;
+}
+
+.center {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.centerFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.textCenter {
+    text-align: center;
 }
 
 /* cambia fuente a arial*/
@@ -17,7 +40,13 @@ body {
     font-size: 35px;
 }
 
-/*  */
+/*texto resaltado*/
+.textresaltado{
+    color: rgb(56, 91, 186);
+    font-weight: bold;
+    font-size: 20px;
+}
+/*cambia el boton para hacerlo banco y de color de fondo azul*/
 .bBlanco {
     border: 3px solid white;
     border-radius: 10px;
@@ -32,6 +61,28 @@ body {
     background-color: white;
     color: rgb(56, 91, 186);
 }
+
+/**/
+.tableBlue {
+    border: 3px solid rgb(56, 91, 186);
+    border-collapse: collapse;
+    
+}
+
+.tableBlue tr {
+    border-bottom: 3px solid rgb(56, 91, 186);
+}
+
+.tableBlue td {
+    padding: 5px 15px 5px 15px;
+}
+
+.tableBlue th {
+    border-right: 3px solid rgb(56, 91, 186);
+    padding: 5px 15px 5px 15px;
+}
+
+
 
 /*coloca los elemento intentando alejarlos lo maximo posible*/
 .opposite {
