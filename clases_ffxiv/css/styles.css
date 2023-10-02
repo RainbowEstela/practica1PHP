@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+/* cambia el fondo a gris */
+.cgrey {
+    background-color: rgb(65, 66, 72);
+}
+
+/* aplica padding de 20px */
+.p20px {
+    padding: 20px 20px 20px 20px;
+}
+
+/* aplica paddin 0*/
+.p0px{
+    padding: 0;
+}
+
+/*quita los puntos a los elementos de una lista*/
+.nolistdec{
+    list-style: none;
+}
+
+/*coloca los elemento intentando alejarlos lo maximo posible*/
+.opposite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*posiciona los elementos en linea con una separacion de 20px*/
+.flexl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
