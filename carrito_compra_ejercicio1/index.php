@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Compra</title>
+    <title>Pedido</title>
 </head>
 <body>
     <header class="opposite cblue p10">
@@ -17,8 +17,8 @@
             </div>
         </div>
         <nav class="flexl">
-            <a href="#"><input type="button" value="tarea 1" class="fArial bBlanco"></a>
-            <a href="#"><input type="button" value="tarea 2" class="fArial bBlanco"></a>
+            <a href="../carrito_compra_ejercicio1/index.php"><input type="button" value="tarea 1" class="fArial bBlanco"></a>
+            <a href="../libreria_ejercicio2/index.php"><input type="button" value="tarea 2" class="fArial bBlanco"></a>
             <a href="#"><input type="button" value="tarea 3" class="fArial bBlanco"></a>
         </nav>
     </header>
