@@ -150,7 +150,7 @@
 
                 [
                     "isbn" => 3111111111113,
-                    "titulo" => "Fake News de la antigua Roma",
+                    "titulo" => "Fake News de la Roma",
                     "descripcion" => "propaganda, engaños y mentiras de la Roma de hace 2000 años.",
                     "categoria" => "historia",
                     "editorial" => "curious cats",
@@ -178,12 +178,56 @@
                     "precio" => 17.14
                 ],
 
-
-
             ];
+
+            shuffle($libros);
+
+            $categorias = ["arte", "cifi", "historia"];
+
+
+            foreach($categorias as $categoria) {
+                echo '
+                <h1 class="textCenter text50px">
+                    Libros de '.$categoria.'
+                </h1>
+                ';
+                echo '<section class="flexlwrap">';
+                $cuatroPrimeros = [];
+                //elegir los cuatro primeros libros de la categoria actual
+                foreach($libros as $libro) {
+                    if($libro["categoria"] == $categoria && count($cuatroPrimeros) < 4) {
+                        array_push($cuatroPrimeros,$libro);
+                    }
+                }
+
+                //pintar cada carta
+                foreach($cuatroPrimeros as $libro) {
+
+                    echo'
+                    <div class="card fArial">
+                        <div class="centerFlex">
+                            <img src='.$libro["foto"].' alt="" height="150px">
+                        </div>
+                        <div>
+                            <h3 class="textCenter">'.$libro["titulo"].'</h3>
+                            <p class="justify min4em">
+                                '.$libro["descripcion"].'
+                            </p>
+                            <p class="colorgris">
+                                '.$libro["editorial"].'
+                            </p>
+                        </div>
+                        <div class="centerFlex">
+                            <a href="#"><input type="button" value="añadir al carro - '.$libro["precio"].'€" class="fArial bnegro"></a>
+                        </div>
+                    </div>                    
+                    ';
+                }
+                echo '</section>';
+
+            }
         
         ?>
-        
     </main>
 </body>
 </html>

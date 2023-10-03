@@ -17,7 +17,7 @@ body {
 
 .center {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
 .centerFlex {
@@ -125,4 +125,41 @@ body {
     align-items: center;
     justify-content: space-around;
     gap: 20px;
+}
+
+/*posiciona los elementos en linea con una separacion de 20px y hace wrap*/
+.flexlwrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/*estilos de las cards*/
+.card {
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid rgb(236, 194, 67);
+}
+
+.justify {
+    text-align: justify;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.colorgris {
+    color: gray;
+}
+
+.text50px {
+    font-size: 50px;
+}
+
+.min4em {
+    min-height: 4.5rem;
 }
