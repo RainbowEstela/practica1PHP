@@ -7,29 +7,31 @@
     <title>final fantasy xiv - clases</title>
 </head>
 <body>
-    <header class="cgrey p20px">
-        <div class="opposite">
-            <div>
-                <img src="./img/logo.png" alt="" width="100px">
-            </div>
-            <div>
-                <form action="">
-                    <input type="text" placeholder="search...">
-                    <button type="submit">search</button>
-                </form>
-            </div>
+    <header class="cgrey p20px opposite nomargin">
+        <div class="flexlnowrap">
+            <img src="./img/logo.png" alt="" width="100px">
+            <p class="cblue nomargin">
+                Final Fantasy XIV
+            </p>
         </div>
-        <nav>
-            <ul class="flexl p0px nolistdec">
-                <li>paladin</li>
-                <li>warrior</li>
-                <li>white mage</li>
-                <li>scholar</li>
-                <li>machinist</li>
-                <li>summoner</li>
-            </ul>
-        </nav>
+
+        <div>
+            <form action="">
+                <input type="text" placeholder="search...">
+                <button type="submit">search</button>
+            </form>
+        </div>
     </header>
+    <nav>
+        <ul class="flexl p0px nolistdec cgrey nomargin">
+            <li><a href="" class="cWhite">paladin</a></li>
+            <li><a href="" class="cWhite">warrior</a></li>
+            <li><a href="" class="cWhite">white mage</a></li>
+            <li><a href="" class="cWhite">scholar</a></li>
+            <li><a href="" class="cWhite">machinist</a></li>
+            <li><a href="" class="cWhite">summoner</a></li>
+        </ul>
+    </nav>
     
 </body>
 </html>

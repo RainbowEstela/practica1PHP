@@ -19,7 +19,7 @@
         <nav class="flexl">
             <a href="../carrito_compra_ejercicio1/index.php"><input type="button" value="tarea 1" class="fArial bBlanco"></a>
             <a href="../libreria_ejercicio2/index.php"><input type="button" value="tarea 2" class="fArial bBlanco"></a>
-            <a href="#"><input type="button" value="tarea 3" class="fArial bBlanco"></a>
+            <a href="../clases_ffxiv/index.php"><input type="button" value="tarea 3" class="fArial bBlanco"></a>
         </nav>
     </header>
     <main class="center ptod20">

@@ -2,9 +2,40 @@ body {
     margin: 0;
 }
 
+
+@font-face {
+
+    font-family: antonio;
+    
+    src: url(../fonts/Antonio-VariableFont_wght.ttf);
+    
+}
+
+.nomargin {
+    margin: 0;
+}
+
+/* enlaces sin boton */
+.cWhite {
+    color: white;
+    font-family: antonio;
+    text-decoration: none;
+}
+
+.cWhite:active {
+    color: #5995ce;
+}
+
+/* texto azul atherite */
+.cblue {
+    font-family: antonio;
+    font-size: 3em;
+    color: #5995ce;
+}
+
 /* cambia el fondo a gris */
 .cgrey {
-    background-color: rgb(65, 66, 72);
+    background-color: rgb(38, 38, 41);
 }
 
 /* aplica padding de 20px */
@@ -26,6 +57,7 @@ body {
 .opposite {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 
 }
@@ -35,5 +67,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 20px;
 }
+
+.flexlnowrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+/*  */
