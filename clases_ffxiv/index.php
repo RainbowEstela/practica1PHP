@@ -40,6 +40,27 @@
             <li><a href="" class="cWhite">summoner</a></li>
         </ul>
     </nav>
+
+    <section>
+        <div class="card bgsize alamingo">
+            hola
+        </div>
+        <div class="card bgsize alamingocas">
+            hola
+        </div>
+        <div class="card bgsize azisteppe">
+            hola
+        </div>
+        <div class="card bgsize limsalominsa">
+            hola
+        </div>
+        <div class="card bgsize alamingo">
+            hola
+        </div>
+        <div class="card bgsize alamingo">
+            hola
+        </div>
+    </section>
     
 </body>
 </html>

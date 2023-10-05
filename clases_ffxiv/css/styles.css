@@ -149,3 +149,32 @@ body {
 .notextdec {
     text-decoration: none;
 }
+
+    /*CODIGO PARA LAS TARJETAS*/
+.card {
+    height: 512px;
+}
+
+/* backgrounds de las cards */
+.bgsize {
+    background-position: center;
+    background-size: 100% auto; /* 100 auto pantalla grande -- auto 100 pantalla pequeña */
+    background-repeat: repeat;
+}
+
+
+.alamingo {
+    background-image: url(../img/alamingo.jpg);
+}
+
+.alamingocas {
+    background-image: url(../img/alamingocastle.png);
+}
+
+.azisteppe {
+    background-image: url(../img/Azim_Steppe.webp);
+}
+
+.limsalominsa {
+    background-image: url(../img/Limsa_Lominsa.webp);
+}
