@@ -15,6 +15,11 @@ body {
     margin: 0;
 }
 
+/* border radius 50% */
+.b50per {
+    border-radius: 50%;
+}
+
 /* enlaces sin boton */
 .cWhite {
     color: white;
@@ -40,7 +45,15 @@ body {
 
 /* aplica padding de 20px */
 .p20px {
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
+}
+
+.p10px {
+    padding: 10px;
+}
+
+.p5px {
+    padding: 5px;
 }
 
 /* aplica paddin 0*/
@@ -71,6 +84,14 @@ body {
     gap: 20px;
 }
 
+.flexlgap5px{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
 .flexlnowrap{
     display: flex;
     align-items: center;
@@ -78,5 +99,53 @@ body {
     gap: 20px;
 }
 
+.flexsolo {
+    display: flex;
+}
 
-/*  */
+/* gap 20px */
+.g20px {
+    gap: 20px;
+}
+
+.g10px {
+    gap: 10px;
+}
+
+/* flex warp */
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+/* decoracion para la barra de busqueda */
+.searchbutdec {
+    background-color: #5995ce;
+    color: white;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+    
+}
+
+.searchbutdec:active {
+    color: #5995ce;
+    background-color: white;
+
+}
+
+.searchbardec {
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.searchbardec::placeholder {
+    color: rgb(213, 213, 213);
+}
+
+/* quitar text decoration */
+.notextdec {
+    text-decoration: none;
+}
