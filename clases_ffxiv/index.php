@@ -30,7 +30,7 @@
             </form>
         </div>
     </header>
-    <nav>
+    <nav class="sticky">
         <ul class="flexlgap5px p10px nolistdec cgrey nomargin">
             <li><a href="" class="cWhite">paladin</a></li>
             <li><a href="" class="cWhite">warrior</a></li>
@@ -43,8 +43,46 @@
 
     <section>
         <div class="card bgsize alamingo">
-            <div class="insidecard">
-                hola
+            <div class="insidecard gridcard">
+                <div class="titulo">
+                    <h3 class="textcen">Paladin</h3>
+                </div>
+
+                <div class="presentacion oppositecol bpresen descsize p20px">
+                    <div>
+                        <p>Paladin is a tank based on meele damage and spells. it also has utility habilities to help your teammates.</p>
+                    </div>
+                    <div class="gridhabilitys">
+                            <div class="flexsolo g5px justaligcen">
+                                <img src="./img/habilitys/paladin/000156.png"  width="50px" alt="">
+                                <p>hability 1</p>
+                            </div>
+                            <div class="flexsolo g5px justaligcen">
+                                <img src="./img/habilitys/paladin/000161.png" width="50px" alt="">
+                                <p>hability 2</p>
+                            </div>
+                            <div class="flexsolo g5px justaligcen">
+                                <img src="./img/habilitys/paladin/000167.png" width="50px" alt="">
+                                <p>hability 3</p>
+                            </div>
+                            <div class="flexsolo g5px justaligcen">
+                                <img src="./img/habilitys/paladin/002506.png" width="50px" alt="">
+                                <p>hability 4</p>
+                            </div>
+                            <div class="flexsolo g5px justaligcen">
+                                <img src="./img/habilitys/paladin/002509.png" width="50px" alt="">
+                                <p>hability with bigger name</p>
+                            </div>
+                            <div class="flexsolo g5px justaligcen">
+                                <img src="./img/habilitys/paladin/002515.png" width="50px" alt="">
+                                <p>hability 6</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="imgclase felxcen">
+                    <img src="./img/Paladin.webp" alt="">
+                </div>
             </div>
         </div>
         <div class="card bgsize alamingocas">

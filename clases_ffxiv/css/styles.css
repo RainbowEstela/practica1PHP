@@ -11,8 +11,16 @@ body {
     
 }
 
+.sticky {
+    position: sticky;
+}
+
 .nomargin {
     margin: 0;
+}
+/* texto centrado */
+.textcen {
+    text-align: center;
 }
 
 /* border radius 50% */
@@ -75,6 +83,15 @@ body {
 
 }
 
+.oppositecol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
 /*posiciona los elementos en linea con una separacion de 20px*/
 .flexl{
     display: flex;
@@ -103,6 +120,12 @@ body {
     display: flex;
 }
 
+.felxcen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* gap 20px */
 .g20px {
     gap: 20px;
@@ -112,9 +135,19 @@ body {
     gap: 10px;
 }
 
+.g5px {
+    gap: 5px;
+} 
+
 /* flex warp */
 .wrap {
     flex-wrap: wrap;
+}
+
+/* flex centrado */
+.justaligcen {
+    justify-content: left;
+    align-items: center;
 }
 
 
@@ -160,9 +193,55 @@ body {
 }
 
 .insidecard {
-    background-color: black;
-    color: red;
+    border: 1px solid black;
     width: 70%;
+}
+
+/* modelo de grid */
+.gridcard {
+    display: grid;
+    grid-template-areas: 
+                'a a a'
+                'b b c'
+                'b b c';
+    gap: 10px;
+}
+
+.gridhabilitys {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+}
+
+.titulo {
+    grid-area: a;
+}
+
+.presentacion {
+    grid-area: b;
+}
+
+.imgclase {
+    grid-area: c;
+}
+
+/* imagen de personaje */
+.imgclase img {
+    width: 300px;
+}
+
+/* background presentacion */
+.bpresen {
+    background-color: rgb(51, 51, 54);
+    box-shadow: inset 1px 1px 50px 10px rgb(43, 43, 43) ,inset -1px -1px 50px 10px rgb(43, 43, 43);
+    border-radius: 20px;
+}
+
+/*tamaño de las letras*/
+.descsize {
+    font-family: Cambria;
+    color: white;
+    font-size: 1.25em;
 }
 
 /* backgrounds de las cards */
@@ -175,7 +254,21 @@ body {
 @media (width < 576px) {
     
     .card {
-        height: 768px;
+        height: auto;
+    }
+
+    .insidecard {
+        padding-top: 20px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .gridcard {
+        display: grid;
+        grid-template-areas: 
+                    'a'
+                    'c'
+                    'b';
     }
     
     .bgsize {
@@ -186,7 +279,21 @@ body {
 @media (576px <= width < 768px) {
 
     .card {
-        height: 768px;
+        height: auto;
+    }
+
+    .insidecard {
+        padding-top: 20px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .gridcard {
+        display: grid;
+        grid-template-areas: 
+                    'a'
+                    'c'
+                    'b';
     }
 
     .bgsize {
@@ -196,8 +303,21 @@ body {
 
 @media (768px <= width < 985px) {
 
+    .gridcard {
+        display: grid;
+        grid-template-areas: 
+                    'a'
+                    'c'
+                    'b';
+    }
+    .card {
+        height: auto;
+    }
+
     .insidecard {
+        padding-top: 20px;
         width: 80%;
+        padding-bottom: 20px;
     }
 
     .bgsize {
