@@ -43,7 +43,9 @@
 
     <section>
         <div class="card bgsize alamingo">
-            hola
+            <div class="insidecard">
+                hola
+            </div>
         </div>
         <div class="card bgsize alamingocas">
             hola
@@ -54,10 +56,10 @@
         <div class="card bgsize limsalominsa">
             hola
         </div>
-        <div class="card bgsize alamingo">
+        <div class="card bgsize mordhona">
             hola
         </div>
-        <div class="card bgsize alamingo">
+        <div class="card bgsize gridania">
             hola
         </div>
     </section>

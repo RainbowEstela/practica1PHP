@@ -153,13 +153,56 @@ body {
     /*CODIGO PARA LAS TARJETAS*/
 .card {
     height: 512px;
+    box-shadow: inset 1px 1px 100px 10px #5995ce ,inset -1px -1px 100px 10px #5995ce;
+    display: flex;
+    justify-content: center;
+
+}
+
+.insidecard {
+    background-color: black;
+    color: red;
+    width: 70%;
 }
 
 /* backgrounds de las cards */
 .bgsize {
     background-position: center;
     background-size: 100% auto; /* 100 auto pantalla grande -- auto 100 pantalla pequeña */
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+}
+
+@media (width < 576px) {
+    
+    .card {
+        height: 768px;
+    }
+    
+    .bgsize {
+        background-size: auto 100%;
+    }
+}
+
+@media (576px <= width < 768px) {
+
+    .card {
+        height: 768px;
+    }
+
+    .bgsize {
+        background-size: auto 100%;
+    }  
+}
+
+@media (768px <= width < 985px) {
+
+    .insidecard {
+        width: 80%;
+    }
+
+    .bgsize {
+        background-size: auto 100%;
+    }  
 }
 
 
@@ -177,4 +220,12 @@ body {
 
 .limsalominsa {
     background-image: url(../img/Limsa_Lominsa.webp);
+}
+
+.mordhona {
+    background-image: url(../img/Mor_Dhona_ARR_03.webp);
+}
+
+.gridania {
+    background-image: url(../img/gridania.png);
 }
