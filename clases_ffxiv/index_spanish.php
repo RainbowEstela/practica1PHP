@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <title>final fantasy xiv - jobs</title>
+    <title>final fantasy xiv - clases</title>
 </head>
 <body>
     <header class="cgrey p20px opposite g20px nomargin">
@@ -25,19 +25,19 @@
             
 
             <form action="" class="flexsolo">
-                <input type="text" placeholder="search..." class="searchbardec p10px">
-                <button type="submit" class="searchbutdec p10px">search</button>
+                <input type="text" placeholder="Buscar..." class="searchbardec p10px">
+                <button type="submit" class="searchbutdec p10px">Buscar</button>
             </form>
         </div>
     </header>
     <nav class="sticky">
         <ul class="flexlgap5px p10px nolistdec cgrey nomargin">
-            <li><a href="#paladin" class="cWhite">paladin</a></li>
-            <li><a href="#warrior" class="cWhite">warrior</a></li>
-            <li><a href="#whitemage" class="cWhite">white mage</a></li>
-            <li><a href="#scholar" class="cWhite">scholar</a></li>
-            <li><a href="#machinist" class="cWhite">machinist</a></li>
-            <li><a href="#summoner" class="cWhite">summoner</a></li>
+            <li><a href="#paladin" class="cWhite">paladín</a></li>
+            <li><a href="#warrior" class="cWhite">guerrero</a></li>
+            <li><a href="#whitemage" class="cWhite">mago blanco</a></li>
+            <li><a href="#scholar" class="cWhite">herudito</a></li>
+            <li><a href="#machinist" class="cWhite">mecánico</a></li>
+            <li><a href="#summoner" class="cWhite">invocador</a></li>
         </ul>
     </nav>
 
@@ -49,8 +49,8 @@
             [//PALADIN
                 "id" => 1,
                 "linkName" => "paladin", 
-                "className" => "Paladin",
-                "description" => "Paladin is a tank based on meele damage and spells. it also has utility habilities to help your teammates.",
+                "className" => "PaladÍn",
+                "description" => "Paladín es un tanque basado en el daño cuerpo a cuerpo y hechizos. tambien tiene habilidades de utilidad para ayudar a los compañeros.",
                 "charImg" => "./img/Paladin.webp",
                 "background" =>"alamingo",
                 "abilities" => [
@@ -89,8 +89,8 @@
             [//WHITE MAGE
                 "id" => 3,
                 "linkName" => "whitemage", 
-                "className" => "White mage",
-                "description" => "White mage is a pure healing base support with a high damage burts.",
+                "className" => "Mago Blanco",
+                "description" => "Mago blanco es un curandero basado en la cura pura con mucho daño directo.",
                 "charImg" => "./img/White_Mage.webp",
                 "background" =>"alamingocas",
                 "abilities" => [
@@ -129,8 +129,8 @@
             [//MACHINIST
                 "id" => 5,
                 "linkName" => "machinist", 
-                "className" => "Machinist",
-                "description" => "Machinist is a phisycal range dps who uses guns and robots to fight.",
+                "className" => "Mecánico",
+                "description" => "Mecánico es un dps de daño físico a distancia que usa pistolas y robots para pelear.",
                 "charImg" => "./img/Machinist.webp",
                 "background" =>"azisteppe",
                 "abilities" => [
@@ -169,8 +169,8 @@
             [//WARRIOR
                 "id" => 2,
                 "linkName" => "warrior", 
-                "className" => "Warrior",
-                "description" => "Warrior is a tank based on sustain and high burst damage.",
+                "className" => "Guerrero",
+                "description" => "Guerrero es un tanque basado en aguante y gran daño directo.",
                 "charImg" => "./img/Warrior.webp",
                 "background" =>"limsalominsa",
                 "abilities" => [
@@ -209,8 +209,8 @@
             [//SCHOLAR
                 "id" => 4,
                 "linkName" => "scholar", 
-                "className" => "Scholar",
-                "description" => "Scholar is a healer based on shields who uses fairies to heal",
+                "className" => "Herudito",
+                "description" => "Herudito es un curandero basado en escudos que usa hadas para curar",
                 "charImg" => "./img/Scholar.webp",
                 "background" =>"mordhona",
                 "abilities" => [
@@ -249,8 +249,8 @@
             [//SUMMONER
                 "id" => 6,
                 "linkName" => "summoner", 
-                "className" => "Summnoner",
-                "description" => "Summoner is a caster which summons gods to fight on their place.",
+                "className" => "Invocador",
+                "description" => "Invocador es un mago que invoca dioses para luchar en su lugar.",
                 "charImg" => "./img/Summoner.webp",
                 "background" =>"gridania",
                 "abilities" => [
@@ -350,7 +350,7 @@
     <footer class="cgrey oppositecol g40px">
         <div class="felxcen">
             <div>
-                <h2 class="textcen textazulfoot">follow our social websites</h2>
+                <h2 class="textcen textazulfoot">Sigue nuestras redes</h2>
                 <div class="felxcen redes g10px">
                     <a href=""><img src="./img/redes/facebook.png" alt=""></a>
                     <a href=""><img src="./img/redes/gorjeo.png" alt=""></a>
@@ -364,26 +364,26 @@
         <div>
             <ul class="flexfooter nolistdec nomargin g40px p0px">
                 <li>
-                    <p class="textazulfoot">community</p>
+                    <p class="textazulfoot">Comunidad</p>
                     <ul class="nolistdec nomargin p0px">
-                        <li><a href="" class="cWhite">Our discord channel</a></li>
-                        <li><a href="" class="cWhite">Join the game</a></li>
-                        <li><a href="" class="cWhite">Share your ideas</a></li>
+                        <li><a href="" class="cWhite">nuestro canal de discord</a></li>
+                        <li><a href="" class="cWhite">Unete al juego</a></li>
+                        <li><a href="" class="cWhite">Comparte ideas</a></li>
                     </ul>
                 </li>
                 <li>
-                    <p class="textazulfoot">support</p>
+                    <p class="textazulfoot">Ayuda</p>
                     <ul class="nolistdec nomargin p0px">
                         <li><a href="" class="cWhite">Feedback</a></li>
-                        <li><a href="" class="cWhite">Site map</a></li>
-                        <li><a href="" class="cWhite">Contact us</a></li>
+                        <li><a href="" class="cWhite">Mapa del sitio</a></li>
+                        <li><a href="" class="cWhite">Contactanos</a></li>
                     </ul>
                 </li>
                 <li>
-                    <p class="textazulfoot">account</p>
+                    <p class="textazulfoot">Cuenta</p>
                     <ul class="nolistdec nomargin p0px">
                         <li><a href="" class="cWhite">Login</a></li>
-                        <li><a href="" class="cWhite">Registre</a></li>
+                        <li><a href="" class="cWhite">Registrarse</a></li>
                         <li><a href="" class="cWhite">FAQ</a></li>
                     </ul>
                 </li>
