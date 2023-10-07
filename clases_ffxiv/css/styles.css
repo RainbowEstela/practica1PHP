@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #558ec3;
 }
 
 
@@ -13,6 +14,7 @@ body {
 
 .sticky {
     position: sticky;
+    top: 0px;
 }
 
 .nomargin {
@@ -127,6 +129,10 @@ body {
 }
 
 /* gap 20px */
+.g40px {
+    gap: 40px;
+}
+
 .g20px {
     gap: 20px;
 }
@@ -190,10 +196,10 @@ body {
     display: flex;
     justify-content: center;
 
+
 }
 
 .insidecard {
-    border: 1px solid black;
     width: 70%;
 }
 
@@ -204,6 +210,15 @@ body {
                 'a a a'
                 'b b c'
                 'b b c';
+    gap: 10px;
+}
+
+.gridcardreverse {
+    display: grid;
+    grid-template-areas: 
+                'a a a'
+                'c b b'
+                'c b b';
     gap: 10px;
 }
 
@@ -239,9 +254,19 @@ body {
 
 /*tamaño de las letras*/
 .descsize {
-    font-family: Cambria;
+    font-family: sans-serif;
     color: white;
     font-size: 1.25em;
+}
+
+/* Nombres de las clases */
+.fonttitulo {
+    margin: 0;
+    font-family: antonio;
+    font-size: 4em;
+    color: white;
+    -webkit-text-stroke: 3px rgb(38, 38, 41);
+
 }
 
 /* backgrounds de las cards */
@@ -251,6 +276,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/* PANTALLAS MUY PEQUEÑAS */
 @media (width < 576px) {
     
     .card {
@@ -270,12 +296,28 @@ body {
                     'c'
                     'b';
     }
+
+    .gridcardreverse {
+        display: grid;
+        grid-template-areas: 
+                    'a'
+                    'c'
+                    'b';
+    }
+
+    .gridhabilitys {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    }
     
     .bgsize {
         background-size: auto 100%;
     }
 }
 
+
+/*PANTALLAS PEQUEÑAS*/
 @media (576px <= width < 768px) {
 
     .card {
@@ -296,11 +338,20 @@ body {
                     'b';
     }
 
+    .gridcardreverse {
+        display: grid;
+        grid-template-areas: 
+                    'a'
+                    'c'
+                    'b';
+    }
+
     .bgsize {
         background-size: auto 100%;
     }  
 }
 
+/* PANTALLAS MEDIANAS */
 @media (768px <= width < 985px) {
 
     .gridcard {
@@ -310,6 +361,15 @@ body {
                     'c'
                     'b';
     }
+
+    .gridcardreverse {
+        display: grid;
+        grid-template-areas: 
+                    'a'
+                    'c'
+                    'b';
+    }
+
     .card {
         height: auto;
     }
@@ -348,4 +408,30 @@ body {
 
 .gridania {
     background-image: url(../img/gridania.png);
+}
+
+
+/* FOOTER */
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.redes img {
+    width: 50px;
+}
+
+.textazulfoot {
+    
+    font-family: antonio;
+    color: #558ec3;
+    font-size: 1.25em;
+    
+}
+
+.flexfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
